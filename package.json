@@ -1,0 +1,27 @@
+{
+  "name": "digital-hq",
+  "displayName": "DigitalHQ",
+  "description": "This is a VSCode theme for fresh developers.",
+  "publisher":"Codefy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VilPeas/codefy"
+  },
+  "keywords": ["dark theme", "dark"],
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DigitalHQ",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DigitalHQ-color-theme.json"
+      }
+    ]
+  }
+}
